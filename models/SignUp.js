@@ -43,6 +43,6 @@ let userSchema = mongoose.Schema({
   },
 });
 
-let User = mongoose.model("Users", userSchema);
+let User = mongoose.model("Students", userSchema);
 
 module.exports = User;

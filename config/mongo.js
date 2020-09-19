@@ -1,6 +1,6 @@
 let mongoose = require("mongoose");
-let path = "mongodb+srv://plant:plant@plantslovers.cwtce.mongodb.net/face?retryWrites=true&w=majority"
-// let path = "mongodb+srv://SardarSahotra:sardarns@cluster0-nk9lq.mongodb.net/test?retryWrites=true&w=majority"
+// let path = "mongodb+srv://plant:plant@plantslovers.cwtce.mongodb.net/face?retryWrites=true&w=majority"
+let path = "mongodb+srv://face:face@faceapp.1jltl.mongodb.net/face_app?retryWrites=true&w=majority"
 mongoose
   .connect(
     path
